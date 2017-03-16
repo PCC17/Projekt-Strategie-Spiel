@@ -1,0 +1,25 @@
+Move
+The base speed of each unit is 4.
+A unit may move through friendly units but not through
+enemy units, and must end its movement in a nonoccupied
+hex.
+A single-based unit may move a number of hexes up to
+its speed.
+Double-based units move one of their halves into an
+space adjacent to that half, then move the other half
+into the space the first half just vacated.
+Alternately, both halves may be moved in a single
+direction, keeping them in the same relationship to one
+another. No part of the unit may move through other
+units or a wall. If this move is made with a non-flying
+unit, the move is stopped if either half enters hindering
+terrain or cover.
+Terrain
+Open Does not block LOS, no effect on movement.
+Hindering Yellow Does not block LOS. Units entering
+hindering terrain must immediately end their move
+action.
+Walls Black Block LOS and movement. Units can fly
+over them.
+Covering Green Does not block LOS. Affects movement
+like hindering terrain. Reduces damage by -1.
